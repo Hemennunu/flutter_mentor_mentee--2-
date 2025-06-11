@@ -36,7 +36,7 @@ class RequestScreen extends ConsumerWidget {
         error: (e, _) => Center(child: Text('Error: $e')),
       ),
       bottomNavigationBar: MenteeBottomBar(
-        currentIndex: 4,
+        currentIndex: 3,
         context: context,
         provider: mentorshipRequestNotifierProvider,
       ),

@@ -43,9 +43,10 @@ class _MentorBottomBarState extends State<MentorBottomBar> {
 
   @override
   Widget build(BuildContext context) {
+    final safeIndex = widget.currentIndex.clamp(0, 3);
     return NavigationBar(
       backgroundColor: const Color(0xFF3F2C2C),
-      selectedIndex: widget.currentIndex,
+      selectedIndex: safeIndex,
       onDestinationSelected: _handleTabSelected,
       destinations: const [
         NavigationDestination(

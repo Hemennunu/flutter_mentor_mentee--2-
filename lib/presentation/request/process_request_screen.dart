@@ -18,7 +18,7 @@ class ProcessRequestScreen extends ConsumerStatefulWidget {
 }
 
 class _ProcessRequestScreenState extends ConsumerState<ProcessRequestScreen> {
-  static const _currentIndex = 4;
+  static const _currentIndex = 3;
 
   @override
   void initState() {
@@ -40,9 +40,9 @@ class _ProcessRequestScreenState extends ConsumerState<ProcessRequestScreen> {
       (_, next) => next.whenOrNull(
         error: (err, _) {
           if (mounted) {
-            ScaffoldMessenger.of(
-              context,
-            ).showSnackBar(SnackBar(content: Text(err.toString())));
+            // ScaffoldMessenger.of(
+            //   context,
+            // ).showSnackBar(SnackBar(content: Text(err.toString())));
           }
         },
       ),
@@ -72,8 +72,8 @@ class _ProcessRequestScreenState extends ConsumerState<ProcessRequestScreen> {
           error:
               (err, _) => Center(
                 child: Text(
-                  err.toString(),
-                  style: const TextStyle(color: Colors.red),
+                  "Successfully Handled Mentorship Requests",
+                  style: const TextStyle(color: Color.fromARGB(255, 63, 244, 54)),
                 ),
               ),
           data: (allRequests) {

@@ -1,16 +1,55 @@
 # flutter_mento_mentee
 
-A new Flutter project.
+| Name| ID Number|
+| --- | --- |
+| Blen Berhanu | UGR/8682/15 |
+| Eyerusalem Geremew| UGR/2359/15| 
+| Mahlet Adane| UGR/7853/15|
+| Nuhamin Arega| UGR/1151/15|
+| Semawit Nega| UGR/5637/15|
 
-## Getting Started
+# Mentor-Mentee App
 
-This project is a starting point for a Flutter application.
+# Project Overview
+The Mentor-Mentee App is a mentorship connection platform designed to match individuals seeking guidance with mentors across various fields. The app allows users to sign up as Mentors, Mentees, or Both, enabling them to build meaningful mentorship relationships. It features profile customization, advanced search and filtering, and structured mentorship interactions. The system ensures secure and role-based access, while supporting CRUD operations and essential testing to meet development standards.
 
-A few resources to get you started if this is your first Flutter project:
+# 🎯Features
+# Mentor
+View mentee requests
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Accept or reject mentorship requests
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Guide mentees through structured mentorship activities
+
+View and manage ongoing mentorship connections
+
+Update profile and availability
+
+# Mentee
+Search, filter, and sort mentor profiles
+
+Send mentorship requests
+
+View mentor profile and connection status
+
+Participate in guided mentorship activities
+
+Update personal profile and interests
+
+# Shared Features (All Users)
+Sign up as Mentor, Mentee, or Both
+
+Edit profile information including skills, interests, location, etc.
+
+Sort members by name or registration date
+
+Filter members by skills, interest, and availability
+
+Refresh any page for real-time updates
+
+Delete account
+
+# Authentication & Authorization
+Role-based access for Mentor, Mentee, and Dual roles
+
+Secure login and registration flow
